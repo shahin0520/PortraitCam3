@@ -9,8 +9,8 @@ android {
         applicationId = "com.portraitcam"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "2.0"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -28,5 +28,7 @@ dependencies {
     implementation("androidx.camera:camera-camera2:$cx")
     implementation("androidx.camera:camera-lifecycle:$cx")
     implementation("androidx.camera:camera-view:$cx")
+    implementation("androidx.camera:camera-extensions:$cx")
     implementation("com.google.mlkit:segmentation-selfie:16.0.0-beta6")
+    implementation("com.google.mlkit:face-detection:16.1.6")
 }

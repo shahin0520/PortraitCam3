@@ -4,4 +4,13 @@
         <item name="android:navigationBarColor">#000000</item>
         <item name="android:windowBackground">#000000</item>
     </style>
+    <style name="Chip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">13sp</item>
+    </style>
 </resources>
