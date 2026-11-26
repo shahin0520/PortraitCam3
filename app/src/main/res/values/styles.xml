@@ -4,13 +4,6 @@
         <item name="android:navigationBarColor">#000000</item>
         <item name="android:windowBackground">#000000</item>
     </style>
-    <style name="Chip">
-        <item name="android:layout_width">43dp</item>
-        <item name="android:layout_height">43dp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:textSize">13sp</item>
-    </style>
     <style name="Mode">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
