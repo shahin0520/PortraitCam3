@@ -1,0 +1,13 @@
+PortraitCam source update notes — v1.1
+=====================================
+
+Changes in this package:
+- App label changed to "Samsung Camera".
+- Version code/name set to 2 / 1.1.
+- Digital zoom UI/controls limited to 10x; removed misleading 30x and 100x buttons.
+- Portrait background mask feather radius reduced from 1/8 to 1/40 of processing width to reduce overly broad edge blending/halo.
+
+Important:
+- These are source-code changes, not a compiled APK.
+- Build needs Android SDK, Java 17, Gradle 8.5 and the model-generation workflow. This project has a GitHub Actions build workflow in .github/workflows/build.yml.
+- Camera quality and portrait output must be tested on the target phone. This update cannot make the A53 camera hardware equivalent to an S25.

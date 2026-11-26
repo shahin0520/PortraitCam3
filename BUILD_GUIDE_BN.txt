@@ -1,0 +1,19 @@
+Samsung Camera / PortraitCam v1.1 — অনলাইন APK Build
+
+এই ZIP-এ Source Code ও GitHub Actions Build Workflow আছে। এটি এখনো APK নয়।
+
+Build করতে:
+1) ZIP extract করুন।
+2) GitHub repository-তে এই ফোল্ডারের ফাইল আপলোড/commit করুন (repository root-এ .github, app, tools, gradle files থাকবে)।
+3) GitHub > Actions > Build APK > Run workflow।
+4) Build শেষ হলে Actions run-এর Artifacts থেকে PortraitCam-apk ডাউনলোড করুন।
+
+Workflow শুধু APK artifact তৈরি করে; Repository-তে build log branch push বা GitHub Release পরিবর্তন করে না।
+
+পরিবর্তন v1.1:
+- Version 1.1 / versionCode 2
+- App label Samsung Camera
+- UI digital zoom maximum 10x (30x/100x controls removed)
+- Portrait mask smoothing radius adjusted; real-device portrait quality still needs testing
+
+সতর্কতা: এটি Galaxy S25-এর camera pipeline বা hardware-এর সমতুল্য নয়। Build ও camera output target ফোনে যাচাই করতে হবে।
